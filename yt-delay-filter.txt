@@ -6,5 +6,8 @@
 ! GitHub issues: https://github.com/AstragoDETechnologies/yt-delay-filter/issues
 ! GitHub pull requests: https://github.com/AstragoDETechnologies/yt-delay-filter/pulls
 
-! Remove delay
+! Remove delay (source: https://www.ghacks.net/2023/11/20/youtube-video-loading-delayed-fix-inside/)
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+
+! Alternative delay removal (source: https://www.ghacks.net/2023/11/20/youtube-video-loading-delayed-fix-inside/)
+www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
