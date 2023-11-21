@@ -1,0 +1,10 @@
+! Title: yt-delay-filter
+! Last modified: %timestamp%
+! Description: Removes the loading delay added by YouTube to non-Chromium Browsers 
+! Homepage: https://github.com/AstragoDETechnologies/yt-delay-filter
+!
+! GitHub issues: https://github.com/AstragoDETechnologies/yt-delay-filter/issues
+! GitHub pull requests: https://github.com/AstragoDETechnologies/yt-delay-filter/pulls
+
+! Remove delay
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
