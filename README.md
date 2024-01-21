@@ -1,4 +1,4 @@
-# YT Delay Filter
+# YouTube Delay Filter
 
 A filter for [uBlock Origin](https://ublockorigin.com/) to remove the loading delay added by YouTube to non-Chromium Browsers.
 
